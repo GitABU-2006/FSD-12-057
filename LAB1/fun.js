@@ -39,3 +39,24 @@ function digittoword(digit){
 console.log(digittoword(7));
 console.log(digittoword(6));
 console.log(digittoword(5));
+
+
+const toWords = (digit)=>{
+  const words = [
+    "Zero",
+    "One",
+    "Two",
+    "Three",
+    "Four",
+    "FIve",
+    "Six",
+    "Seven",
+    "Eight",
+    "Nine",
+  ];
+
+  return word[digit];
+}
+
+    console.log(toWord(1));
+    console.log(toWord(0));
