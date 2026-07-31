@@ -5,7 +5,7 @@ class DomClass extends EventEmitter{
         this.on(eventName , callback) ; 
     }
     removeEventListener(eventName , callback){
-        this.off(this.eventName, callback);
+        this.off(eventName, callback);
     }
 
     dispatchEvent(eventName , eventData={}){
