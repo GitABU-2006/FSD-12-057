@@ -9,11 +9,10 @@ const f3 = () => {
 };
 function main() {
   console.log("main");
-  setTimeout(f1, 1000);
+  setTimeout(f1, 0);
   // setInterval(f1,1000);
   setImmediate(f2);
-  f2();
   f3();
-  console.log("end");
+  console.log("end ");
 }
 main();
